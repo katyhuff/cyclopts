@@ -1,6 +1,8 @@
 #ifndef CYCLUSSOLVER_H
 #define CYCLUSSOLVER_H
-
+#ifndef CHAR_BIT
+#define CHAR_BIT __CHAR_BIT__
+#endif
 #include <vector>
 #include <map>
 #include <boost/shared_ptr.hpp>

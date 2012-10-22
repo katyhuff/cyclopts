@@ -100,10 +100,10 @@ double CBCSolver::objDirection(ObjFuncPtr& obj) {
   double sense_value;
   switch(obj->dir()) {
   case ObjectiveFunction::MIN:
-    sense_value = 1.0;
+    sense_value = -1.0;
     break;
   case ObjectiveFunction::MAX:
-    sense_value = -1.0;
+    sense_value = 1.0;
     break;
   }
   return sense_value;
